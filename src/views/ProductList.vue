@@ -53,6 +53,7 @@ export default {
         let response = await this.axios.post(apiEndPoint, index);
         console.log("SukcesSSSS", response);
         console.log("lalalal2 " + index);
+        alert(response.data);
     },
   }
 }
